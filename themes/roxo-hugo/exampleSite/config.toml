@@ -1,0 +1,135 @@
+baseURL       = "http://iacdrops.xyz/"
+languageCode  = "en-us"
+title         = "IaCdrops | Infastructure as Code service and development Agency"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Service"
+    url     = "services"
+    weight  = 2
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 5
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 6
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "IaCdrops | Infastructure as Code service and development Agency"
+  author = "Riyadh Uddin"
+  # Google Analitycs
+  #googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  #formspreeFormUrl  = "https://formspree.io/myykjpje"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/iacdropsback.png"
+    heading               = "We provide Infrastructure as Code with security."
+    tagline               = "WE Design, Develop and Deploy"
+    primary_button        = "See Our Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "OUR RECENT WORKS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "LET’S WORK TOGETHER"
+    primary_button      = "Submit Query"
+    primary_button_url  = "contact"
+    secondary_button    = "Not Convinced"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "West Mithanala, Mirsharai<br> Chattogram, 4323"
+      phone   = "01864956125"
+      email   = "itssend@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Twitter"
+          url  = "https://twitter.com/riyadhuddin_"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://fb.com/iacdrops"
+        [[params.footer.social.link]]
+          name = "Github"
+          url  = "https://github.com/riyadhuddin"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://instagram.com/riyadh_uddin"
+      # Footer Service
+      [params.footer.service]
+         title       = "We help brands:"
+         description = "Develop design solutions and <br>produce valuable cultural content.<br>Create fresh brand experience.<br> No more it admins and Ops hassle for you."
