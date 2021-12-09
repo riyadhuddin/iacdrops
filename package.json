@@ -132,10 +132,10 @@
     "yauzl": "^2.10.0"
   },
   "scripts": {
-
+    "start": "npm run hugo:serve",
     "build": "npm run hugo:build",
     "clean": "npm run hugo:clean",
-    "start": "npm run hugo:serve",
+    "serve": "npm run hugo:serve",
     "hugo:build": "hugo -d build",
     "hugo:serve": "hugo server",
     "hugo:clean": "rm -rf build resources public"
