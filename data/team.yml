@@ -1,0 +1,9 @@
+enable  : true
+title   : Team that makes the difference.
+members  :
+  - image       : images/team/riyadhuddinctg.png
+    name        : Riyadh Uddin
+    designation : Founder
+    twitter      : https://twitter.com/riyadhuddin_
+    linkedIn    : https://www.linkedin.com/in/riyadhuddin
+    instagram   : https://www.instagram.com/riyadh_uddin

@@ -1,0 +1,14 @@
+enable : true
+heading : "Recent Project delivered!"
+counter_item: 
+  - title: "Happy Clients"
+    number: "9"
+
+  - title: "Projects Completed"
+    number: "20"
+
+  - title: "Cups of coffee"
+    number: "40"
+
+  - title: "Telephone Talks"
+    number: "60"
