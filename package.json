@@ -47,7 +47,7 @@
     "fast-glob": "^3.2.7",
     "fastq": "^1.13.0",
     "fd-slicer": "^1.1.0",
-    "file-type": "^5.2.0",
+    "file-type": "^16.5.4",
     "fill-range": "^7.0.1",
     "fs-constants": "^1.0.0",
     "fs.realpath": "^1.0.0",
